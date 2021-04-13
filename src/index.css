@@ -1,13 +1,73 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*   font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Josefin Sans', sans-serif;;
 }
+
+h1, h2, h3, h4{
+  font-family: 'Dancing Script', cursive;
+  color: brown;
+}
+.header {
+  display: flex;
+}
+.mainHeader {
+  font-size: 2rem;
+  display: flex;
+  justify-items: end;
+  padding: 20px 20px;
+  border-bottom: brown solid 2px;
+  font-family: 'Dancing Script', cursive;
+  color: brown;
+}
+.subheader {
+  font-size: 1rem;
+  display: flex;
+  justify-items: end;
+  padding: 20px 20px;
+  border-bottom: brown solid 2px;
+  font-family: 'Dancing Script', cursive;
+  color: brown;
+}
+h1 { 
+  font-size: 2rem;
+  display: flex;
+  justify-items: end;
+  padding: 20px 20px;
+  border-bottom: brown solid 2px;
+}
+
+button {
+  background-color: white; /* Green */
+  border: 1px solid rgb(167, 69, 39);
+  border-color: rgb(167, 69, 39);
+  color: black;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 20px;
+  float: left;
+}
+button:hover {
+  background-color: rgb(167, 69, 39);
+  color: white;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+
+
+
+/* p{
+  font-family: 'Josefin Sans', sans-serif;
+} */
+@import "~react-image-gallery/styles/css/image-gallery.css";
+

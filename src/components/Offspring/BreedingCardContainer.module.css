@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+    object-fit: contain;
+  }
+
+  .mainHeader {
+    font-size: 3rem;
+    color: brown;
+    display: flex;
+    justify-items: end;
+    padding: 20px 20px;
+    border-bottom: brown solid 2px;
+  }

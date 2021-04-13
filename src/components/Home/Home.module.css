@@ -1,0 +1,180 @@
+.parallax {
+/* The image used */
+background-image: url("./dog.jpg");
+
+/* Set a specific height */
+height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("./dog1.jpg");
+  
+  /* Set a specific height */
+  height: 100vh;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-style: italic;
+  border-bottom: none;
+}
+
+.header h2 {
+  font-size: 4rem;
+  font-family: "Dancing Script";
+  color: white;
+}
+
+.content {
+  
+  min-height: min-content;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.596);
+  font-size: x-large;
+  background-size: contain;
+  padding: 0.5rem;
+  align-items: center;
+}
+.content h2 {
+  padding-bottom: 1rem;
+  color: rgb(167, 69, 39);
+}
+
+.content2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.596);
+  font-size: x-large;
+  background-size: contain;
+  border-radius: 10px;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.certificatLogo {
+  display: flex;
+  flex-direction: row;
+}
+
+.certificatLogo img {
+  margin: 1rem;
+}
+
+.exLinks a {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.exLinks ul {
+  list-style-type: none;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* 
+@media (max-width: 590px) {
+  .parallax{
+    background-size: contain;
+  }
+
+  .parallax1{
+    background-size: contain;
+  }
+  .header h1 {
+    font-size: medium;
+  }
+  .content {
+    font-size: medium;
+  }
+
+  .header h2 {
+    font-size: 2rem;
+  }
+
+  .certificatLogo {
+    flex-direction: column;
+  }
+
+  .exLinks > ul > li > a {
+    font-size: small;
+  }
+
+  .certificatLogo img {
+    margin: 0;
+  }
+}
+
+@media (min-width: 591px) and (max-width: 800px) {
+
+  .parallax{
+    background-size: contain;
+  }
+
+  .parallax1{
+    background-size: contain;
+  }
+
+  .header h1 {
+    font-size: medium;
+  }
+  .content {
+    font-size: medium;
+  }
+
+  .certificatLogo {
+    flex-direction: column;
+  }
+
+  .exLinks > ul > li > a {
+    font-size: medium;
+  }
+
+  .certificatLogo img {
+    margin: 0;
+  }
+} */

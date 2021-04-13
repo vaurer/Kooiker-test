@@ -1,0 +1,119 @@
+body {
+  overflow: scroll;
+}
+.mainText {
+  padding: 20px;
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 15px;
+    max-width: 960px;
+    /* margin-bottom: 100px;
+    object-fit: contain; */
+  }
+  .mainHeader {
+    font-size: 2rem;
+    color: brown;
+    display: flex;
+    justify-items: end;
+    padding: 20px 20px;
+    border-bottom: brown solid 2px;
+  }
+  .detailCard {
+    padding-bottom: 20px;
+  }
+  .content {
+    display: flex;
+    flex: 7;
+    align-items: center;
+    padding: 20px;
+  }
+  .header {
+    font-size: 1.5rem;
+    color: brown;
+    padding-bottom: 8px;
+  }
+  .born {
+    padding-bottom: 20px;
+  }
+  .dataContainer {
+    flex: 3;
+    object-fit: contain;
+    text-align: left;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: auto;
+    overflow-x: auto;
+  }
+  th,
+  td {
+    padding-right: 20px;
+  }
+  .expositions {
+    padding-top: 20px;
+  }
+  .imageContainer {
+    flex: 3;
+    text-align: right;
+    background-size: cover;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    object-fit: contain;
+    padding: 20px;
+  }
+  img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .imgRight {
+    float: right;
+  }
+  .imgLeft {
+    float: left;
+  }
+  
+  .buttonRight {
+    float: right;
+    margin-top: 20px;
+  }
+   button {
+     margin: 20px;
+   }
+   .card {
+    display: flex;
+    flex-wrap: wrap;
+    /* background: silver; */
+  }
+  
+  .card > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 280px;
+  }
+  
+  .media {
+    /* background: black; */
+    min-height: 280px;
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: 767px){
+    th,
+    td {
+      padding-right: 6px;
+    }
+    button {
+      margin: 6px;
+    }
+  }
